@@ -8,6 +8,9 @@
 namespace Reminduck.Utils {
 
         private static void request_autostart () {
+#if WINDOWS
+            stdout.printf ("\nRequested autostart");
+#else
             Xdp.Portal portal = new Xdp.Portal ();
             GenericArray<weak string> cmd = new GenericArray<weak string> ();
             cmd.add ("io.github.elly_code.reminduck");
@@ -21,9 +24,13 @@ namespace Reminduck.Utils {
                 null);
 
             stdout.printf ("\n🚀 Requested autostart");
+#endif
         }
 
         private static void remove_autostart () {
+#if WINDOWS
+            stdout.printf ("\nRemoved autostart");
+#else
             Xdp.Portal portal = new Xdp.Portal ();
             GenericArray<weak string> cmd = new GenericArray<weak string> ();
             cmd.add ("io.github.elly_code.reminduck");
@@ -37,5 +44,6 @@ namespace Reminduck.Utils {
                 null);
 
             stdout.printf ("\n🚀 Removed autostart");
+#endif
         }
 }
