@@ -79,7 +79,7 @@ public class Reminduck.Views.RemindersView : Gtk.Box {
 
                 if (reminder.recurrency_type != RecurrencyType.NONE) {
                     var recurrency_indicator = new Gtk.Image ();
-                    recurrency_indicator.gicon = new ThemedIcon ("media-playlist-repeat");
+                    recurrency_indicator.gicon = new ThemedIcon ("media-playlist-repeat-symbolic");
                     recurrency_indicator.pixel_size = 18;
                     recurrency_indicator.tooltip_text = _("Reminded: %s").printf (reminder.recurrency_type.to_friendly_string (reminder.recurrency_interval));
                     box.append (recurrency_indicator);
@@ -108,14 +108,14 @@ public class Reminduck.Views.RemindersView : Gtk.Box {
 
                 box.append (new Gtk.Label (date_label_text));
 
-                var edit_button = new Gtk.Button.from_icon_name ("edit");
+                var edit_button = new Gtk.Button.from_icon_name ("document-edit-symbolic");
                 edit_button.tooltip_text = _("Edit");
                 edit_button.activate.connect (() => { on_edit (reminder); } );
                 edit_button.clicked.connect (() => { on_edit (reminder); } );
 
                 box.append (edit_button);
 
-                var delete_button = new Gtk.Button.from_icon_name ("edit-delete");
+                var delete_button = new Gtk.Button.from_icon_name ("edit-delete-symbolic");
                 delete_button.tooltip_text = _("Delete");
                 delete_button.activate.connect (() => { on_delete (reminder); } );
                 delete_button.clicked.connect (() => { on_delete (reminder); } );

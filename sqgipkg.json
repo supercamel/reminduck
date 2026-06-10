@@ -132,6 +132,7 @@
       "mingw-w64-x86_64-granite7",
       "mingw-w64-x86_64-libgee",
       "mingw-w64-x86_64-sqlite3",
+      "mingw-w64-x86_64-gdk-pixbuf2",
       "mingw-w64-x86_64-librsvg",
       "mingw-w64-x86_64-gstreamer",
       "mingw-w64-x86_64-gst-plugins-base",
@@ -139,6 +140,7 @@
       "mingw-w64-x86_64-gsettings-desktop-schemas",
       "mingw-w64-x86_64-hicolor-icon-theme",
       "mingw-w64-x86_64-adwaita-icon-theme",
+      "mingw-w64-x86_64-adwaita-icon-theme-legacy",
       "mingw-w64-x86_64-gtk-elementary-theme"
     ],
     "native_projects": [

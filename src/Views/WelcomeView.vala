@@ -38,19 +38,19 @@ public class Reminduck.Views.WelcomeView : Gtk.Box {
         append (welcome_widget);
 
         reminder_editor_button = this.welcome_widget.append_button (
-                new ThemedIcon ("document-new"),
+                new ThemedIcon ("document-new-symbolic"),
                 _("New Reminder"),
                 _("Create a new reminder for a set date and time")
         );
 
         reminders_view_button = this.welcome_widget.append_button (
-            new ThemedIcon ("accessories-text-editor"),
+            new ThemedIcon ("accessories-text-editor-symbolic"),
             _("View Reminders"),
             _("See reminders you've created")
         );
 
         settings_view_button = this.welcome_widget.append_button (
-            new ThemedIcon ("open-menu"),
+            new ThemedIcon ("open-menu-symbolic"),
             _("Settings"),
             _("Tweak a few things")
         );
