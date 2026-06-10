@@ -152,7 +152,22 @@
           "meson compile -C \"$SQGI_WINDOWS_BUILD_DIR\""
         ],
         "files": [
-          "build-windows-x86_64/data/io.github.elly_code.reminduck.gschema.xml=share/glib-2.0/schemas/io.github.elly_code.reminduck.gschema.xml"
+          "build-windows-x86_64/data/io.github.elly_code.reminduck.gschema.xml=share/glib-2.0/schemas/io.github.elly_code.reminduck.gschema.xml",
+          "data/icons/hicolor/16.png=share/icons/hicolor/16x16/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor/24.png=share/icons/hicolor/24x24/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor/32.png=share/icons/hicolor/32x32/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor/48.png=share/icons/hicolor/48x48/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor/64.png=share/icons/hicolor/64x64/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor/128.png=share/icons/hicolor/128x128/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor/256.png=share/icons/hicolor/256x256/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor@2/16@2.png=share/icons/hicolor/16x16@2/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor@2/24@2.png=share/icons/hicolor/24x24@2/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor@2/32@2.png=share/icons/hicolor/32x32@2/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor@2/48@2.png=share/icons/hicolor/48x48@2/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor@2/64@2.png=share/icons/hicolor/64x64@2/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor@2/128@2.png=share/icons/hicolor/128x128@2/apps/io.github.elly_code.reminduck.png",
+          "data/icons/hicolor@2/256@2.png=share/icons/hicolor/256x256@2/apps/io.github.elly_code.reminduck.png",
+          "data/icons/scalable.svg=share/icons/hicolor/scalable/apps/io.github.elly_code.reminduck.svg"
         ]
       }
     ],

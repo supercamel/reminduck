@@ -41,7 +41,7 @@ public class Reminduck.QuackBox : Gtk.Box {
         var choicebox = new Gtk.Box (HORIZONTAL, 12);
 
 
-        var quack_button = new Gtk.Button.from_icon_name ("media-playback-start-symbolic") {
+        var quack_button = new Gtk.Button.from_icon_name ("media-playback-start") {
             tooltip_text = _("Click to preview reminder sound")
         };
         var quack_dropdown = new Gtk.DropDown.from_strings (QuackType.choices ());
