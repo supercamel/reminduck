@@ -141,6 +141,7 @@
       "mingw-w64-x86_64-hicolor-icon-theme",
       "mingw-w64-x86_64-adwaita-icon-theme",
       "mingw-w64-x86_64-adwaita-icon-theme-legacy",
+      "mingw-w64-x86_64-elementary-icon-theme",
       "mingw-w64-x86_64-gtk-elementary-theme"
     ],
     "native_projects": [
